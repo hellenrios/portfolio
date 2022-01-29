@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #7c99ac;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Header*/
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+}
+
+.hellen-name-nav {
+  background-color: #ffffff;
+  color: #7c99ac;
+  margin-left: 9%;
+}
+
+.nav-menu {
+  background-color: #ffffff;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.menu-list {
+  background-color: #ffffff;
+  width: 100%;
+  margin-right: 7%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list-item {
+  background-color: #ffffff;
+  color: #7c99ac;
+  margin: 0 5% 0 0;
+  display: flex;
+}
+
+a {
+  background-color: #ffffff;
+  color: #7c99ac;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/*Home*/
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-one {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.3vw;
+  margin-left: 9.3%;
+}
+
+span {
+  display: block;
+}
+
+.profile-pic {
+  width: 64%;
+  border-radius: 50%;
+  margin-left: 13%;
+}
+
+/*About*/
+
+.code-icon {
+  width: 8rem;
+  font-size: 10rem;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.about {
+  background-color: #ffffff;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-me {
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  color: #7c99ac;
+  line-height: 3;
+}
+
+.about-me p,
+h2 {
+  background-color: #ffffff;
+}
+
+.about-me h2 {
+  height: 10vh;
+  font-size: 2rem;
+  margin-bottom: 3%;
+  display: inline-block;
+}
+
+/*Skills*/
+
+.skills {
+  width: 100%;
+  height: 80vh;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills h2 {
+  background-color: #7c99ac;
+  display: inline-block;
+  margin: 1rem 0 4rem 0;
+  font-size: 2rem;
+}
+
+.skills-items {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 3;
+}
+
+.fab {
+  color: #ffffff;
+  font-size: 2.2rem;
+  margin-right: 1.5%;
+}
+
+/*Contact*/
+
+.contact {
+  background-color: #ffffff;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h2 {
+  color: #7c99ac;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 2rem 1rem 0;
+}
+
+.email-form {
+  width: 28%;
+  height: 30vh;
+  background-color: #ffffff;
+  line-height: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-form {
+  width: 25vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  height: 2rem;
+}
+
+::placeholder {
+  color: #828588;
+}
+
+.contact-form,
+label,
+input,
+textarea {
+  background-color: #ffffff;
+  color: #7c99ac;
+}
+
+input,
+textarea {
+  border-radius: 0.3rem;
+  border: solid #7c99ac 0.12rem;
+}
+
+.form-button {
+  width: 4rem;
+  padding: 0.5rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-button:hover {
+  background-color: #7c99ac;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 18vh;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+
+.github-icon {
+  background-color: #7c99ac;
+}
+
+.linkedin-icon {
+  background-color: #7c99ac;
+}
+
+.email-icon {
+  color: #ffffff;
+  background-color: #7c99ac;
+}
